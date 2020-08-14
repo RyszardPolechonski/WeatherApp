@@ -1,11 +1,14 @@
 {
   "devDependencies": {
-    "webpack": "^4.29.6",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.0"
   },
   "scripts": {
     "start": "webpack --watch --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "heroku-postbuild": "webpack -p",
+    "build:prod": "NODE_ENV=production webpack -p -progress --colors --bail --optimize-dedupe --optimize-minimize",
+    "postinstall": "npm run build:prod"  
   },
   "license": "MIT"
 }
