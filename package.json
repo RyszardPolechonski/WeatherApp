@@ -11,7 +11,6 @@
   "scripts": {
     "start": "webpack --watch --mode development",
     "build": "webpack --mode production --config ./webpack.prod.config.js",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
     "build:prod": "NODE_ENV=production webpack -p -progress --colors --bail --optimize-dedupe --optimize-minimize"
   },
   "license": "MIT"
