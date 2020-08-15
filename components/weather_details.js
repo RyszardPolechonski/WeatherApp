@@ -323,7 +323,7 @@ function setMainData(param) {
         <li>Odczuwalna: ${odczuwalna}&#8451</li>
     </ul>
     `;
-    //weatherIcon.src = "http://openweathermap.org/img/w/" + param.list[0].weather[0].icon + ".png";
+    //weatherIcon.src = "https://openweathermap.org/img/w/" + param.list[0].weather[0].icon + ".png";
 }
 
 

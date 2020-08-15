@@ -32,10 +32,7 @@ const makeWeather = async(inputCity) =>
     try
     {
         const [currentWeather, forecastWheater] = await Promise.all([ getAPI(inputCity, "current"), getAPI(inputCity, "5 days") ]);
-    
-        console.log(currentWeather);
         setBackground(currentWeather);
-        console.log(forecastWheater);
         init(forecastWheater);
         setDetails(forecastWheater);
     }
