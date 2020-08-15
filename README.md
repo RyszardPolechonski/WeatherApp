@@ -1,9 +1,9 @@
 ## WeatherApp
 
 Poprawiona apka pogodowa napisana podczas CodersCamp 2019.
-* Wyczyszczony HTML ze zbędnych powtórzeń, dodane meta tagi, zmieniona animacja
-* Poprawiony JS, wyczyszczony kod z powtórzeń i generowanie elementów z pomocą jQuery i pętli
-* Dodane elementy do deploymentu na Heroku
+* Wyczyszczony HTML ze zbędnych powtórzeń, dodane meta tagi, zmieniona animacja,
+* Poprawiony JS, wyczyszczony kod z powtórzeń i generowanie elementów z pomocą jQuery i pętli,
+* Dodane elementy do deploymentu na Heroku.
 
 ## Heroku deployment
 
