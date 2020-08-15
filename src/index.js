@@ -43,7 +43,7 @@ const makeWeather = async(inputCity) =>
     }
 }
 
-makeWeather("Warszawa");
+makeWeather("Santiago");
 document.addEventListener("DOMContentLoaded", () =>
 {
     //tutaj wszystko co będzie wywoływane na stronie
