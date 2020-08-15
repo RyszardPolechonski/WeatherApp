@@ -149,7 +149,6 @@ const setBackground = ( currentWeather, element = document.body) =>
         element.appendChild(loadingBox);
 
         muter = document.createElement("img");              // tworzenie wyciszacza
-        console.log(muter);
         muter.src = !(isMuted) ?  "../src/img/soundon.svg" : "../src/img/soundoff.svg";
         muter.classList.add("muter");
         muter.id = "bg-muter";    
