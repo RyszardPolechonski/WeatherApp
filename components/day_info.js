@@ -26,7 +26,7 @@ createDayBox();
 function init(resultFromServer){
 
  //zmienne do ikonek pogody
-let clear = 'https://image.flaticon.com/icons/svg/1200/1200394.svg';  //Icon made by https://www.freepik.com/ from www.flaticon.com
+let clear = 'https://img.icons8.com/office/160/000000/sun--v1.png';  //Sun icon by Icons8
 let cloudy = 'https://image.flaticon.com/icons/svg/1200/1200427.svg';  //Icon made by https://www.freepik.com/ from www.flaticon.com
 let snow = 'https://image.flaticon.com/icons/svg/1200/1200430.svg';  //Icon made by https://www.freepik.com/ from www.flaticon.com
 let atmosphere = 'https://image.flaticon.com/icons/svg/1532/1532284.svg';  //Icon made by https://www.freepik.com/ from www.flaticon.com
